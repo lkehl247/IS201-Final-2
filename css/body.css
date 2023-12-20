@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-image: url(https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51jQNoo8bpL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+nav {
+    background-color: #333;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #efeded;
+}
+
+.top-right-image {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.header-div {
+    text-transform: uppercase;
+    color: white;
+}
+
+.center-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
